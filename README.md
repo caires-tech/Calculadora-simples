@@ -61,7 +61,7 @@ Calculadora-simples/
 ```
 
 ```markdown
-![Screenshot da Calculadora](./screenshot.png)
+![Screenshot da Calculadora](./screenshot.PNG)
 ```
 
 ---

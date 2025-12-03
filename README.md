@@ -60,9 +60,7 @@ Calculadora-simples/
 └─ README.md        # este arquivo
 ```
 
-```markdown
 ![Screenshot da Calculadora](https://raw.githubusercontent.com/caires-tech/Calculadora-simples/main/screenshot.PNG)
-```
 
 ---
 

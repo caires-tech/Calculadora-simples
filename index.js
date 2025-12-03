@@ -1,6 +1,6 @@
 function outcome() { // Declara a função chamada quando o botão "calculate" é clicado
 
-    let num1 = Number(document.getElementById('num-one').value)  
+    let num1 = Number(document.getElementById('num-one').value)
     // Busca o valor digitado no input com id "num-one",
     // converte esse valor para Number e guarda na variável num1.
 
@@ -23,7 +23,7 @@ function outcome() { // Declara a função chamada quando o botão "calculate" �
         total = num1 / num2            // Caso contrário, divide (box4)
 
     // Exibe o resultado na tela:
-    document.getElementById('resultArea').innerHTML = 'Result: ' + String(total)
+    document.getElementById('resultArea').innerHTML = 'Resultado: ' + String(total)
     // Busca o elemento <h1 id="resultArea"> e substitui seu conteúdo
     // pelo texto 'Result: ' + o valor calculado convertido para string.
 }

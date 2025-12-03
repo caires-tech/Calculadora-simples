@@ -61,7 +61,7 @@ Calculadora-simples/
 ```
 
 ```markdown
-![Screenshot da Calculadora](./screenshot.PNG)
+![Screenshot da Calculadora](https://raw.githubusercontent.com/caires-tech/Calculadora-simples/main/screenshot.PNG)
 ```
 
 ---

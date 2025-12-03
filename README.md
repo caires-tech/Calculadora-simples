@@ -9,6 +9,11 @@
 Este é um projeto pequeno e didático que implementa uma **calculadora básica** (adição, subtração, multiplicação e divisão) usando **HTML**, **CSS** e **JavaScript** puros. Ideal para demonstrar conhecimentos fundamentais de front-end: estruturação, estilo e manipulação do DOM.
 
 ---
+## 🚀 Acesse a Calculadora Online
+
+**🔗 Clique aqui para usar a calculadora agora:**  
+https://caires-tech.github.io/Calculadora-simples/
+---
 
 ## Tecnologias
 

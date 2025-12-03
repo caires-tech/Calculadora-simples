@@ -1,0 +1,37 @@
+<!DOCTYPE html> <!-- Define que o documento usa HTML5 -->
+<html lang="en"> <!-- Inicia o HTML e define o idioma como inglês -->
+<head> <!-- Cabeçalho da página: configurações e links externos -->
+	<meta charset="UTF-8"> <!-- Define codificação de caracteres UTF-8 -->
+	<title>Simple Calculator using Javascript</title> <!-- Título exibido na aba do navegador -->
+	<link href="style.css" rel="stylesheet"> <!-- Importa o arquivo CSS externo -->
+</head>
+<body> <!-- Corpo da página, tudo visível ao usuário fica aqui -->
+	<div class="wrapper"> <!-- Div usada como contêiner principal para estilos -->
+		<h2>Simple Calculator</h2> <!-- Título da calculadora -->
+        <!-- Campo de texto para o primeiro número -->
+		<input id="num-one" name="num-one" type="text"> 
+        <!-- Campo de texto para o segundo número -->
+		<input id="num-two" name="num-two" type="text">
+		<br> <!-- Quebra de linha -->
+		<br> <!-- Outra quebra de linha -->
+        <!-- BOTÕES DE OPERAÇÃO (RADIO BUTTONS) -->
+		<input checked id="box1" name="sign-area" type="radio" value="add"> <!-- Botão já selecionado por padrão, representa soma -->
+		<b>+</b> <!-- Símbolo exibido ao lado do botão -->
+		<input id="box2" name="sign-area" type="radio" value="subtract"> <!-- Botão de subtração -->
+		<b>-</b> <!-- Símbolo da operação -->
+		<input id="box3" name="sign-area" type="radio" value="multiply"> <!-- Botão de multiplicação -->
+		<b>*</b> <!-- Símbolo da operação -->
+		<input id="box4" name="sign-area" type="radio" value="divide"> <!-- Botão de divisão -->
+		<b>/</b> <!-- Símbolo da operação -->
+		<br> <!-- Quebra de linha -->
+		<br> <!-- Outra quebra de linha -->
+        <!-- Botão que executa a função outcome() no JavaScript ao ser clicado -->
+		<button onclick="outcome()" type="button">calculate</button>
+        <!-- Área onde o resultado será exibido pelo JavaScript -->
+		<h1 id="resultArea"></h1>
+	</div> <!-- Fim do contêiner wrapper -->
+    <!-- Importa o arquivo JavaScript com a lógica da calculadora -->
+	<script src="index.js"></script> 
+</body>
+</html> <!-- Final do documento HTML -->
+
